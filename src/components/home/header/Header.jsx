@@ -25,9 +25,9 @@ const Header = () => {
                     <li><Link to='/Shop'>Shop</Link></li>
                     <li><Link to='/Contact'>Contact</Link></li>
                     <li className="icon">
-                        <SearchOutlinedIcon className='SearchOutlinedIcon'/>
-                        <WorkIcon className='WorkIcon'/>
-                        <GridViewIcon className='GridViewIcon'/>
+                        <SearchOutlinedIcon className='HeaderIcon'/>
+                        <WorkIcon className='HeaderIcon'/>
+                        <GridViewIcon className='HeaderIcon'/>
                     </li>
                 </ul>
             </div>
