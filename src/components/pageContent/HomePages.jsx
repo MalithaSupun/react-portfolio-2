@@ -1,10 +1,11 @@
 import React from 'react'
+import Home from '../home/homes/Home'
 
 const HomePages = () => {
   return (
-    <div>
-        <h1>HomePages</h1>
-        </div>
+    <>
+    <Home />
+    </>
   )
 }
 
