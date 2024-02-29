@@ -9,6 +9,11 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 const Header = () => {
     const [sidebar,setSidebar] = useState(false)
+
+    window.addEventListener("scroll",function () {
+        const header = document.querySelector(".header")
+        header.classList.toggle("active", window.screenY > 200)
+    })
   return (
     <>
     <header className='header'>
