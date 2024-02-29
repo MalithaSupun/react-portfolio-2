@@ -1,7 +1,7 @@
-import { Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
 import './App.css';
 import Header from './components/home/header/Header';
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import HomePages from './components/pageContent/HomePages';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <Router>
           <Header />
           <Switch>
-            <Router path='/' exact />
+            <Route path='/' exact component={HomePages}/>
           </Switch>
           </Router>
       </>

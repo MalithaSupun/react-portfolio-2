@@ -4,6 +4,8 @@ import {Link} from "react-router-dom";
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import WorkIcon from '@mui/icons-material/Work';
 import GridViewIcon from '@mui/icons-material/GridView';
+import CloseIcon from '@mui/icons-material/Close';
+import MenuIcon from '@mui/icons-material/Menu';
 
 const Header = () => {
     const [sidebar,setSidebar] = useState(false)
@@ -29,7 +31,9 @@ const Header = () => {
                     </li>
                 </ul>
             </div>
-            <buttion className="navbar-items-icon"></buttion>
+            <button className='navbar-items-icon' onClick={() => setSidebar(!sidebar)}>
+               {sidebar ? <CloseIcon/> : <MenuIcon/>} 
+            </button>
         </div>
     </header>
     </>
