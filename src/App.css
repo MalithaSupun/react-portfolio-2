@@ -116,6 +116,13 @@ header.active {
     padding: 5px 10px;
   }
 }
+
+@media screen and (min-width: 769px) {
+  .navbar-items-icon {
+    display: none;
+  }
+}
+
 /*-------Header-----------*/
 /*-------Home-----------*/
 .left,
