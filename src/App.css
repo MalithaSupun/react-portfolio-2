@@ -161,6 +161,7 @@ header.active {
 
 .home h1 {
   font-size: 60px;
+  margin-top: 15%;
 }
 
 .socialIcon i{
@@ -230,5 +231,43 @@ header.active {
 
 .linkedin:hover {
   background-color: #0077b5;
+}
+
+button {
+  background: none;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.primary-btn {
+  padding: 15px 40px;
+  background: #38d16a;
+}
+
+.primary-btn:hover {
+  background: #e69a0e;
+  box-shadow: 0 13px 27px 0 rgb(245, 78, 162 / 25%);
+}
+
+.home ,.right{
+  margin-top: 1%;
+}
+
+.home .socialIcon {
+  margin: 30px 0;
+}
+
+.home p {
+  margin-bottom: 20px;
+}
+
+p {
+  color: #6185a5;
+  line-height: 30px;
 }
 /*-------Home-----------*/
