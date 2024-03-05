@@ -3,6 +3,7 @@ import Home from '../home/homes/Home'
 import Branding from '../home/Branding'
 import About from '../home/about/About'
 import Service from '../home/servicess/Service'
+import Wrapper from '../home/servicess/Wrapper'
 
 const HomePages = () => {
   return (
@@ -10,7 +11,8 @@ const HomePages = () => {
     <Home />
     <Branding />
     <About />
-    <Service/>
+    <Service />
+    <Wrapper />
     </>
   )
 }

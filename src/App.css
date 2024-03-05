@@ -379,3 +379,19 @@ h3 {
 
 
 /*-------Services-----------*/
+/*-------Wrapper-----------*/
+.wrapper {
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.wrapper h2 {
+  font-size: 40px;
+}
+
+.wrapper p {
+  opacity: 1;
+  margin-bottom: 30px;
+}
+/*-------Wrapper-----------*/
