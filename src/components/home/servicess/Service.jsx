@@ -3,8 +3,10 @@ import React from 'react'
 const Service = () => {
   return (
     <>
-        <h1>Service</h1>
-        </>
+        <section className="services topMargin">
+          
+        </section>
+    </>
   )
 }
 
