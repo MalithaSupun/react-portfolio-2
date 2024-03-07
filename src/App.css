@@ -395,3 +395,46 @@ h3 {
   margin-bottom: 30px;
 }
 /*-------Wrapper-----------*/
+/*-------Skill-----------*/
+.skill {
+  padding: 50px 0;
+}
+
+.skill .heading {
+  text-align: center;
+}
+
+.progress {
+  background-color: #d5d5d5;
+  border-radius: 20px;
+  position: relative;
+  margin: 45px 0;
+  height: 10px;
+  width: 90%;
+}
+
+.progress h4 {
+  position: absolute;
+  color: #000;
+  top: -30px;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.progress h4:nth-child(2) {
+  right: 0;
+  font-size: 17px;
+  font-weight: 400;
+  color: #7f9cb5;
+}
+
+.progress-done {
+  background-color: #38d16a;
+  border-radius: 20px;
+  color: #fff;
+  height: 100%;
+  width: 0;
+  opacity: 0;
+  transition: 1s ease 0.3s;
+}
+/*-------Skill-----------*/
