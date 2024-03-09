@@ -451,3 +451,24 @@ h3 {
 
 
 /*-------Skill-----------*/
+/*-------WrapperOne-----------*/
+.grid1{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 30px;
+}
+
+.wrapperOne {
+  background: #38d16a;
+  text-align: center;
+}
+
+.wrapperOne h1 {
+  color: #fff;
+}
+
+.wrapperOne p {
+  font-size: 14px;
+  margin: 10px;
+}
+/*-------WrapperOne-----------*/
