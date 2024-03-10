@@ -476,7 +476,7 @@ h3 {
 .work {
   background-color: #000;
   padding: 40px 0;
-  height: 163vh;
+  height: 152vh;
 }
 
 .work .heading {
@@ -515,21 +515,21 @@ h3 {
 .work .box:nth-child(4) {
   grid-column-start: 1;
   grid-column-end: 3;
-  grid-row-start: 8;
+  grid-row-start: 7;
   grid-row-end: 8;
 }
 
 .work .box:nth-child(5) {
   grid-column-start: 3;
   grid-column-end: 5;
-  grid-row-start: 8;
+  grid-row-start: 7;
   grid-row-end: 8;
 }
 
 .work .box:nth-child(6) {
   grid-column-start: 5;
   grid-column-end: 9;
-  grid-row-start: 8;
+  grid-row-start: 7;
   grid-row-end: 8;
 }
 
