@@ -718,7 +718,7 @@ footer .icon i {
 /*-------Footer-----------*/
 
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .left,
   .right {
     width: 100%;
@@ -832,4 +832,15 @@ footer .icon i {
     height: 550px;
     background: rgba(18, 22, 25, 0.925);
   }
+
+  foother .grid1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.pageContent{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
