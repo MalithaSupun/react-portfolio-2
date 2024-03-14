@@ -707,7 +707,7 @@ footer .icon i {
   height: 20px;
 }
 
-.legal .container {
+.legal{
   display: flex;
   justify-content: space-between;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
@@ -716,3 +716,120 @@ footer .icon i {
 }
 
 /*-------Footer-----------*/
+
+
+@media screen and (min-width: 768px) {
+  .left,
+  .right {
+    width: 100%;
+  }
+
+  .home .container {
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .home {
+    height: 134vh;
+  }
+
+  .home .img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  transform: scale(1);
+  }
+
+  .grid {
+    grid-template-columns: repeat(1,1fr);
+  }
+
+
+  .skill .content,
+  .about .container {
+    flex-direction: column;
+  }
+
+  .about .img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .about img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .about .img::after {
+    display: none;
+  }
+
+  .wrapper .container {
+    max-width: 80%;
+  }
+
+  .skill .right {
+    padding: 0;
+  }
+
+  .work {
+    height: 340vh;
+  }
+  .work .content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 20vh);
+  }
+  .work .box:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 5;
+  }
+
+  .work .box:nth-child(2){
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 8;
+  }
+
+  .work .box:nth-child(3){
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 8;
+    grid-row-end: 11;
+  }
+
+  .work .box:nth-child(4){
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 11;
+    grid-row-end: 14;
+  }
+
+  .work .box:nth-child(5){
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 14;
+    grid-row-end: 17;
+  }
+
+  .work .box:nth-child(6){
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 17;
+    grid-row-end: 20;
+  }
+
+  .work .box:nth-child(1)::after,
+  .work .box:nth-child(2)::after,
+  .work .box:nth-child(3)::after,
+  .work .box:nth-child(4)::after,
+  .work .box:nth-child(5)::after,
+  .work .box:nth-child(6)::after{
+    width: 767px;
+    height: 550px;
+    background: rgba(18, 22, 25, 0.925);
+  }
+}
